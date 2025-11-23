@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "votes" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "voting_choice" BOOLEAN NOT NULL,
+    "casted_at" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
